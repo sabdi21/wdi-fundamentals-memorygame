@@ -29,6 +29,10 @@ nav {
 a {
     margin: 0px 20px;
     color: white;
+    border-bottom: 2px solid transparent;
+}
+a:hover {
+	background-color: #ffffff;
 }
 main {
     width: 850px;
@@ -53,4 +57,37 @@ p {
     font-weight: 600;
     font-family: "Raleway", sans-serif;
 }
+
+footer {
+    text-transform: uppercase;
+    padding:0px 20px;
+    background-color: #0D2C40;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.copyright {
+float: left;
+font-family: "Raleway", sans-serif;
+}
+.message {
+    float: right;
+    font-family: "Raleway", sans-serif;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
 
